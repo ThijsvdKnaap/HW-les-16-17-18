@@ -1,0 +1,129 @@
+[class*="col-"] {
+    width: 100%;
+}
+
+@media only screen and (min-width: 768px) {
+    [class*="col-"] {
+    float: left;
+    padding: 25px 45px 25px 45px;
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+    }
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    background-image:url(afbeeldingen/denhoorn.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 100%;
+    height: 250px;
+}
+
+.content {
+    background-color: white;
+}
+
+#kop {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 110px;
+    color: white;
+    margin: 0px;
+}
+
+@media only screen and (min-width: 768px) {
+    #kop {
+        font-family: 'Montserrat', sans-serif;
+        font-size: 250px;
+        color: white;
+        margin: 0px;
+    }
+    }
+
+h2 {
+    font-size: 110px;
+    color: white;
+    margin: 0px;
+}
+
+@media only screen and (min-width: 768px) {
+    h2 {
+        font-size: 250px;
+        color: white;
+        margin: 0px;
+    }
+    }
+
+img {
+    float: right;
+    width: 450px;
+    height: 450px;
+    padding: 0px 200px 0px 100px;
+}
+
+.tekst {
+font-size: 22px;
+}
+
+.een {
+    background-color: rgb(182, 182, 182);
+    min-height: 300px;
+}
+
+@media only screen and (min-width: 768px) {
+    .een {
+        background-color: rgb(182, 182, 182);
+        min-height: 1600px;
+    }
+    }
+
+h4 {
+    font-size: 35px;
+    margin: 0px;
+    padding: 15px 0px 20px 15px;
+}
+
+li {
+    font-size: 25px;
+}
+
+.twee {
+    background-color: grey;
+    min-height: 1600px;
+}
+
+footer {
+    font-size: 50px;
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    background-color: rgba(0, 128, 0, 0.589);
+}
+
+@media only screen and (min-width: 768px) {
+    footer {
+        font-size: 150px;
+        width: 100%;
+        height: 200px;
+        position: absolute;
+        top: 1895px;
+        left: 0px;
+        text-align: center;
+        background-color: rgba(0, 128, 0, 0.589);
+    }
+    }
